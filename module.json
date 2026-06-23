@@ -1,0 +1,24 @@
+{
+    "id": "nmap",
+    "name": "Nmap",
+    "version": "1.0",
+    "repository": "",
+    "category": "Network Scanning",
+    "description": "Nmap (Network Mapper) est un outil de scanner de réseau open source utilisé pour découvrir les hôtes et les services sur un réseau informatique. Il est largement utilisé par les administrateurs système, les professionnels de la sécurité et les hackers éthiques pour effectuer des audits de sécurité, des analyses de vulnérabilité et des évaluations de réseau.",
+    "parameters": [
+        {
+            "name": "target",
+            "type": "string",
+            "description": "L'adresse IP ou le nom de domaine de la cible à scanner."
+        },
+        {
+            "name": "options",
+            "type": "string",
+            "description": "Les options de ligne de commande pour personnaliser le scan (par exemple, -sS pour un scan SYN, -O pour la détection du système d'exploitation, etc.)."
+        }
+    ],
+    "output": {
+        "type": "string",
+        "description": "Le résultat du scan Nmap, généralement au format texte ou XML."
+    }
+}
